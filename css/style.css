@@ -78,7 +78,8 @@
 .btn-getticket
 {
     width: 100%;
-    bottom: 2rem;   
+    bottom: 2rem;  
+    transition: all 1s ease; 
 }
 
 .box-getticket img
@@ -91,6 +92,9 @@
 {
     background-color: #0ba4fc;
     color: #fff;
+    -webkit-box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.29);
+    box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.29);
 }
 
 .btn-getticket .btn-default:hover
@@ -112,4 +116,12 @@
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-weight: 400;
+}
+
+.box-getticket:hover
+{
+    -webkit-box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.68);
+    -moz-box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.68);
+    box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.68) !important;
+    transition: all 0.5s ease !important; 
 }
